@@ -4,8 +4,8 @@ Type-annotated function
 '''
 
 
-def add(a: float, b: float) -> float:
+def concat(str1: str, b: str) -> str:
     '''
-    returns sum of a and b
+    returns a concatenated string of str1 and str2
     '''
     return a + b
