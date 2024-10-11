@@ -4,9 +4,9 @@ Type-annotated function
 '''
 
 
-from math import floor
+import math
 def floor(n: float) -> int:
     '''
     returns floor of n
     '''
-    return floor(n)
+    return math.floor(n)
