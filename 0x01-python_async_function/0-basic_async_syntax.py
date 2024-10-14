@@ -6,7 +6,7 @@ Create a simple asyncronous in Python
 
 import random
 import asyncio
-from typings import Awaitable
+from typing import Awaitable
 
 
 async def wait_random(max_delay: int=10) -> Awaitable[float]:
