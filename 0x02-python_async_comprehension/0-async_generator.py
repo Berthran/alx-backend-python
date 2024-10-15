@@ -9,7 +9,7 @@ import asyncio
 from typing import AsyncGenerator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator():
     '''
     Yields a random floating point number between 0 and 10
     '''
