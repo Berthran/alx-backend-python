@@ -6,10 +6,10 @@ an async generator with no arguments
 
 import random
 import asyncio
-from typing import AsyncGenerator
+from typing import AsyncGenerator, Iterator, Generator
 
 
-async def async_generator():
+async def async_generator() -> AsyncGenerator[float, None]:
     '''
     Yields a random floating point number between 0 and 10
     '''
